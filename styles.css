@@ -457,13 +457,13 @@ hr {
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./assets/img/rancho-la-estacio__n-sesio__n-quinces-ximena_0034.jpg");
+  background-image: url("./assets/img/img-4.jpg");
 }
 .window-back3 {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/Book\ Tattoo.jpeg");
+  background-image: url("./assets/img/img-1.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
@@ -607,13 +607,6 @@ hr {
   height: 100vh;
   margin: 0;
   padding: 0;
-  /* background-image: linear-gradient(
-        rgba(5, 7, 12, 0.274),
-        rgba(5, 7, 12, 0.171)
-      ),
-      url("./assets/img/xv-brianni-0244.jpeg"); */
-  /* url("./assets/img/fiesta.png"); */
-
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
@@ -901,7 +894,7 @@ a:hover {
   color: #c38674;
 }
 .image-1 {
-  background-image: url("./assets/img/vestido-quinceanera-corset-verde-strapless.jpg");
+  background-image: url("./assets/img/img-3.jpg");
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -919,7 +912,7 @@ a:hover {
   height: 100vh;
 }
 .image-3 {
-  background-image: url("./assets/img/Book\ Tattoo.jpeg");
+  background-image: url("./assets/img/img-2.jpg");
   background-size: cover;
 
   justify-content: center;
@@ -1080,7 +1073,7 @@ a:hover {
       rgba(5, 7, 12, 0.393),
       rgba(5, 7, 12, 0.462)
     ),
-    url("./assets/img/ultima-foto.jpg");
+    url("./assets/img/img-7.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
