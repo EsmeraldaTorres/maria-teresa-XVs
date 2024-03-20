@@ -192,7 +192,7 @@ button:focus {
       rgba(5, 7, 12, 0.308),
       rgba(5, 7, 12, 0.335)
     ),
-    url("./assets/img/img-5.jpg");
+    url("./assets/img/img-9.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
@@ -283,6 +283,18 @@ hr {
   top: 50%;
   color: white;
 }
+.carousel-indicators li {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 40px;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .gallery .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
   outline-style: none;
@@ -321,6 +333,7 @@ hr {
   padding-bottom: 9rem;
 }
 .window-back2 {
+  position: relative;
   height: max-content;
   margin: 0;
   padding: 0;
@@ -555,6 +568,7 @@ hr {
   background-position: bottom;
 }
 .recepcion-information2 {
+  position: relative;
   padding-top: 3rem;
   padding-bottom: 3rem;
   height: max-content;
@@ -720,6 +734,7 @@ a:hover {
   font-size: 5.5rem;
 }
 .filtro-img {
+  width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -727,7 +742,7 @@ a:hover {
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/WhatsApp\ Image\ 2024-03-13\ at\ 10.10.50\ AM.jpeg");
+    url("./assets/img/filtro-maria-teres.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -767,15 +782,6 @@ a:hover {
   font-size: 1.8rem;
   color: #c38674;
 }
-.image-1 {
-  background-image: url("./assets/img/img-3.jpg");
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
 .image-2 {
   background-image: url("./assets/img/img-6.jpg");
   background-size: cover;
@@ -788,7 +794,15 @@ a:hover {
 .image-3 {
   background-image: url("./assets/img/img-2.jpg");
   background-size: cover;
-
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.image-4 {
+  background-image: url("./assets/img/img-11.jpg");
+  background-size: cover;
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -796,6 +810,25 @@ a:hover {
   height: 100vh;
 }
 
+.image-5 {
+  background-image: url("./assets/img/img-8.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.image-6 {
+  background-image: url("./assets/img/img-5.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 .timeline ul li {
   list-style-type: none;
   position: relative;
@@ -849,8 +882,12 @@ a:hover {
   left: 45px;
 }
 .familiares-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
   padding-top: 5rem;
-  min-height: max-content;
+  height: 100vh;
   margin: 0;
   color: #c38674;
   padding-bottom: 5rem;
@@ -860,8 +897,8 @@ a:hover {
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
-  background-image: linear-gradient(rgb(255 255 255 / 75%), rgb(0 0 0 / 0%)),
-    url("./assets/img/back-6.png");
+  background-image: linear-gradient(rgb(229 229 231 / 0%), rgb(5 7 12)),
+    url("./assets/img/img-10.jpg");
 }
 .card {
   width: 80%;
@@ -915,7 +952,7 @@ a:hover {
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
 }
 .marca {
   color: rgb(246, 244, 240);
