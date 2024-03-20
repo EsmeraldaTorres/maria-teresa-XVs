@@ -312,7 +312,7 @@ hr {
 .align-name {
   align-items: end;
   height: 100vh;
-  padding-bottom: 9rem;
+  padding-bottom: 1rem;
 }
 .window-back2 {
   position: relative;
@@ -898,7 +898,40 @@ a:hover {
 .marca {
   color: rgb(246, 244, 240);
 }
+
+.title-parents {
+  font-size: 2.5rem;
+  color: #906464 !important;
+}
+.parents-name {
+  font-size: 1.3rem;
+  color: #906464 !important;
+}
+@media (min-width: 380px) {
+  .align-name {
+    align-items: end;
+    height: 100vh;
+    padding-bottom: 7rem;
+  }
+  .title-parents {
+    font-size: 3rem;
+  }
+  .parents-name {
+    font-size: 1.5rem;
+  }
+}
 @media (min-width: 470px) {
+  .align-name {
+    align-items: end;
+    height: 100vh;
+    padding-bottom: 9rem;
+  }
+  .parents-name {
+    font-size: 1.7rem;
+  }
+  .title-parents {
+    font-size: 3.5rem;
+  }
   .name {
     width: 70%;
     padding-right: 0 !important;
