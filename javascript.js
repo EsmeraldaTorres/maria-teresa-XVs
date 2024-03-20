@@ -72,3 +72,23 @@ var x = setInterval(function () {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+// quitar background attatchment fixed de iphone
+// Detectar si es un dispositivo iOS
+var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+// Si es un dispositivo iOS, cambiar el background-attachment a scroll
+if (isIOS) {
+  document.querySelector(".home").style.backgroundAttachment = "initial";
+  document.querySelector(".main-phrase").style.backgroundAttachment = "initial";
+  document.querySelector(".bg-hotel").style.backgroundAttachment = "initial";
+  document.querySelector(".window-back").style.backgroundAttachment = "initial";
+  document.querySelector(".window-back2").style.backgroundAttachment =
+    "initial";
+  document.querySelector(".recepcion-information").style.backgroundAttachment =
+    "initial";
+  document.querySelector(".window-regalos").style.backgroundAttachment =
+    "initial";
+  document.querySelector(".last-container").style.backgroundAttachment =
+    "initial";
+}
