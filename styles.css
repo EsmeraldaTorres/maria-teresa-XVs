@@ -66,9 +66,6 @@
     url("./assets/img/Free\ Luxury\ Neutral\ Beige\ Gold\ Painted\ Minimalist\ Desktop\ Wallpaper\ Background.png");
   margin: 0;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-position: top;
 }
 
@@ -135,9 +132,6 @@ button:focus {
   margin: 0;
   font-size: 2rem;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-position: top;
 }
 .img-fecha {
@@ -172,9 +166,6 @@ button:focus {
   margin: 0;
   background-image: url("./assets/img/back-5.png");
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -193,9 +184,6 @@ button:focus {
     ),
     url("./assets/img/img-9.jpg");
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -304,9 +292,6 @@ hr {
   height: min-content;
   margin: 0;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("./assets/img/back-5.png");
@@ -317,9 +302,6 @@ hr {
   margin: 0;
   padding: 0;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
@@ -338,11 +320,7 @@ hr {
   margin: 0;
   padding: 0;
   background-color: white;
-  /* background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg"); */
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
@@ -355,9 +333,6 @@ hr {
   justify-content: center;
   align-items: right;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
@@ -374,9 +349,6 @@ hr {
   justify-content: center;
   align-items: right;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("./assets/img/img-4.jpg");
@@ -387,9 +359,6 @@ hr {
   padding: 0;
   background-image: url("./assets/img/img-1.jpg");
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -413,9 +382,6 @@ hr {
   justify-content: center;
   align-items: right;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: left;
   background-image: linear-gradient(
@@ -436,16 +402,8 @@ hr {
 .gallery {
   height: max-content;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
-  /* background-image: linear-gradient(
-        rgba(5, 7, 12, 0.527),
-        rgba(5, 7, 12, 0.514)
-      ),
-      url("./assets/img/bg2.jpg"); */
 }
 .window-152 {
   color: white;
@@ -455,9 +413,6 @@ hr {
   justify-content: center;
   align-items: right;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
@@ -530,9 +485,6 @@ hr {
   margin: 0;
   padding: 0;
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -553,6 +505,8 @@ hr {
   padding-top: 5rem;
   padding-bottom: 5rem;
   height: max-content;
+  background-attachment: fixed;
+
   margin: 0;
   background-image: linear-gradient(
       rgb(255 255 255 / 28%),
@@ -560,10 +514,6 @@ hr {
     ),
     url("./assets/img/back-4.png");
   background-size: cover;
-  background-attachment: fixed;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -574,7 +524,6 @@ hr {
   height: max-content;
   margin: 0;
   background-color: white;
-  /* background-image: url("./assets/img/bg-primera-comunion.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -592,9 +541,6 @@ hr {
     ),
     url("./assets/img/salon3.jpg");
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -707,9 +653,6 @@ button:hover {
     ),
     url("./assets/img/pexels-regalos2.jpg");
   background-size: cover;
-  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
-  -moz-background-size: cover; /* Para Firefox */
-  -o-background-size: cover; /* Para Opera */
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: bottom;
