@@ -20,7 +20,7 @@
   font-family: "Parisienne", cursive;
 }
 .display-1 {
-  font-size: 5rem !important;
+  font-size: 3.5rem !important;
 }
 .font-cormo {
   font-family: "Cormorant Garamond", serif;
@@ -918,6 +918,9 @@ a:hover {
   }
   .parents-name {
     font-size: 1.5rem;
+  }
+  .display-1 {
+    font-size: 4rem !important;
   }
 }
 @media (min-width: 470px) {
