@@ -199,9 +199,10 @@ button:focus {
   background-repeat: no-repeat;
   background-position: top;
 }
-.name {
-  width: 80%;
-  padding-right: 0;
+.background {
+  position: relative;
+  height: min-content; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
 }
 /* audio */
 .player-audio {
