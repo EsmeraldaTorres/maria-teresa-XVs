@@ -40,6 +40,12 @@
 .title2 {
   font-weight: 600;
 }
+.f-w-400 {
+  font-weight: 400;
+}
+.f-w-600 {
+  font-weight: 600;
+}
 .btn-ver-mapa {
   background-color: #c38674 !important;
   border-radius: 10px;
@@ -182,7 +188,7 @@ button:focus {
       rgba(5, 7, 12, 0.308),
       rgba(5, 7, 12, 0.335)
     ),
-    url("./assets/img/img-9.jpg");
+    url("./assets/img/img-7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -351,13 +357,13 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./assets/img/img-4.jpg");
+  background-image: url("./assets/img/img-1.jpg");
 }
 .window-back3 {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/img-1.jpg");
+  background-image: url("./assets/img/img-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -651,7 +657,7 @@ button:hover {
       rgba(5, 7, 12, 0.277),
       rgba(5, 7, 12, 0.277)
     ),
-    url("./assets/img/pexels-regalos2.jpg");
+    url("./assets/img/window-regalos1.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -669,7 +675,7 @@ a:hover {
   height: 80%;
   width: 100%;
   border-radius: 5%;
-  background-color: rgb(245 243 243 / 68%);
+  background-color: rgb(245 243 243 / 64%);
 }
 
 .icon-sobre {
@@ -678,14 +684,14 @@ a:hover {
 }
 .filtro-img {
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/filtro-maria-teres.png");
+    url("./assets/img/filtro-maria-teres.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -727,7 +733,7 @@ a:hover {
   color: #c38674;
 }
 .image-2 {
-  background-image: url("./assets/img/img-6.jpg");
+  background-image: url("./assets/img/img-9.jpg");
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -887,7 +893,7 @@ a:hover {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 27%)),
-    url("./assets/img/img-7.jpg");
+    url("./assets/img/img-6.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
